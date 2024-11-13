@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="flex flex-col justify-between gap-3 h-screen pb-3 relative lg:flex-row lg:justifiy-center lg:gap-[2rem]">
       <div className="relative z-1 lg:w-1/2">
         <img
-          className="rounded-[1rem] w-full h-full object-cover"
+          className="rounded-[1rem] w-full h-[60vh] object-cover lg:h-full"
           src="/images/model.jpg"
           alt="model with purse"
         />
