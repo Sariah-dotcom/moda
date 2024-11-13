@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function Collections() {
   return (
     <div className="flex flex-col gap-[5rem]">
-      <div className="flex flex-col items-center font-dm-sans text-brown text-2xl">
+      <div className="flex flex-col items-center font-dm-sans text-brown text-2xl lg:text-5xl">
         <span className="flex items-center gap-1">
           Level up <img src="/images/up-arrow.png" alt="up arrow" /> your style
         </span>
@@ -20,7 +20,7 @@ export default function Collections() {
       </div>
 
       <div id="collections">
-        <h2 className="text-2xl text-center text-brown font-semibold mb-[3rem]">
+        <h2 className="text-2xl text-center text-brown font-semibold mb-[3rem] lg:text-4xl">
           Fall Collection 2024
         </h2>
 

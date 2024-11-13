@@ -5,8 +5,9 @@ import { RiInstagramFill } from "react-icons/ri";
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <div className="flex flex-col gap-10 bg-brown text-white justify-between px-3 pt-10 rounded-[1rem]">
+    <div className="flex flex-col gap-10 bg-brown text-white justify-between px-3 pt-10 rounded-[1rem] lg:w-full">
       <h2 className="text-4xl font-bold">moda.</h2>
+    
       <div>
         <h3 className="font-bold mb-3">Collections</h3>
         <ul className="text-xs font-inter">

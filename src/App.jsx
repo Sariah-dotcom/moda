@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <div className='p-[0.7rem] flex flex-col gap-[5rem]'>
+      <div className='p-[0.7rem] flex flex-col gap-[5rem] lg:items-center lg:gap-[10rem]'>
         <Hero />
         <Collections />
         <AdditionalDetails />
