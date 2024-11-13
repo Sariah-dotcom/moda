@@ -14,9 +14,7 @@ export default function App() {
         <Collections />
         <AdditionalDetails />
         <Footer />
-
       </div>
-      
     </div>
   )
 }

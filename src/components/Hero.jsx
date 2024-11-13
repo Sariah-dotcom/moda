@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-between gap-3 h-screen pb-3 relative mb-[10rem]">
+    <div className="flex flex-col justify-between gap-3 h-screen pb-3 relative">
       <div className="relative z-1">
         <img
           className="rounded-[1rem] w-full h-full object-cover"
